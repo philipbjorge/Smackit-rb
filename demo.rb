@@ -1,5 +1,4 @@
 require 'smackit'
-conf.echo = false
 
 class Counter
   attr_accessor :data
@@ -38,4 +37,4 @@ actual << c.data
 c = c.smackit
 actual << c.data
 
-if expected == actual then puts "\n\nTEST PASSED" else puts "\n\nTEST FAILED" end
+if expected == actual then puts "TEST PASSED" else puts "TEST FAILED" end

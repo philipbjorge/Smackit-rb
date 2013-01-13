@@ -1,10 +1,5 @@
 class Object
-  attr_accessor :smackit_recreate, :smackit_impl
-
-  def initialize(*args)
-    @smackit_recreate = nil
-    super(*args)
-  end
+  attr_accessor :smackit_recreate
 
   def smackit
     # The cool thing about smackit is that we return a new object, but it (appears)
