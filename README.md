@@ -1,5 +1,6 @@
 Smackit-rb
 ==========
+![smackit logo](logo.png "Smackit")
 
 A throwback to a time when every object had a makeshift hard reset button.
 
